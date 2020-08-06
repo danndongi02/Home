@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="functions.js"></script>
+		
+		<title>Home</title>
+		
+	</head>
+	<body>
+		<nav>
+			<div class="header">
+				<h1>The White Highlands</h1>
+			</div>		
+		</nav>
+		
+		<div class="tabs">
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<span id="defaultOpen" class="nav-link " onclick="openTab(event, 'welcome')" href="#welcome">Welcome</span>
+				</li>
+				<li class="nav-item">
+					<span class="nav-link " onclick="openTab(event, 'history')" href="#history">History</span>
+				</li>
+				<li class="nav-item">
+					<span class="nav-link " onclick="openTab(event, 'locality')" href="#locality">Locality</span>
+				</li>
+				<li class="nav-item">
+					<span class="nav-link " onclick="openTab(event, 'activities')" href="#activities">Activities</span>
+				</li>
+				<li class="nav-item">
+					<span class="nav-link " onclick="openTab(event, 'amenities')" href="#amenities">Amenities</span>
+				</li>
+			</ul> 
+		</div>
+
+		
+		<main id="welcome" class="container tabcontent">
+			<h1>Welcome</h1>
+				<div class="quote">
+					<p>"Home is where our stories begin..."</p>
+				</div>				
+				<p>This is a brief introduction of the area where I live, or as I like to call it, <b>home</b>. I will tell you about: </p>
+				<ul>
+					<li><i>The history of the area</i></li>
+					<li><i>The locality of the area and the surrounding towns</i></li>
+					<li><i>The economic activities carried out in the area</i></li>
+					<li><i>The public amenities in the area</i></li>
+				</ul>
+				<p>This is to name just but a few things about the area. Hope you enjoy.</p>
+		</main>
+		
+		<main id="history" class="container tabcontent">
+			<h1>History</h1>
+				<p>I'm going to tell you a brief history of the name '<i>The White Highlands</i>'.</p>
+				<p><b>The White Highlands</b>, according to wikipedia, is an area in the central uplands of Kenya. It has been the homeland of indigenous 
+				Central Kenyan communitiesup to the colonial period, when it became the centre of European settlement in Kenya. Between 1902 and 1961, 
+				it was officially reserved for te exclusive use of Europeans by the colonial government.</p>
+				<p><b>Exploration:</b> Early explorers and adminstrators were attracted to the cool climate and the abscence of populations over the large 
+				swathes of the highlands, and prefered it for European settlement in sub-tropical Africa. In 1893, <i>Frederick Lugard</i> noted that European settlement 
+				in the region was not possible until the cooler Highlands were made accessible. This view was echoed by <i>Sir Harry Johnstone</i> who noted the highlands 
+				on completion of the Uganda Railway.</p>
+				<p><b>Settlement:</b> In 1902, <i>Sir Charles Eliot</i> encouraged settlement of the Highlands for farming. He believed that the only way 
+				to recoup the money spent on construction of the railway was by opening up the Highlands for farming. By 1903, there were about 100 European settlers in the 
+				Highlands. By 1914, there were about a thousand European settlers in the Highlands.By 1930, approximately 65% of the land reserved for Europeans 
+				was not under any form of agriculturally productive activity.</p>
+				<br>
+				<p>The reservation of the White Highlands for Europeans by administrative practice was ended by the <i>Land Control Regulations</i> in 1961. Kenya later gained independence 
+				in the year 1963. Today, the region is at the heart of Kenya's economy. It is the country's best served region by road and rail and has many flourishing cities. It prodeces most o Kenya's 
+				agricultural exports.</p>
+				
+			<footer>Source:<a href="https://en.wikipedia.org/wiki/White_Highlands">Wikipedia</a></footer>
+		</main>
+		
+		<main id="locality" class="container tabcontent">
+			<h1>Locality</h1>
+				<p>Now, I live in an area called 'Muguga' near Kikuyu. It is a small location with a substantial population. It is on your way to Limuru town, which is 
+				one of the towns close to my area. Other close towns include Kikuyu and Nairobi City, which is the capital city of Kenya. It is easily accessible by 
+				road. In fact, The Great North Road is the main highway that is used to access it.</p>
+				
+				<div  class="quote">
+					<p>"Home is where love resides, memories are created, friends always belong, and laughter never ends."</p>
+				</div>
+		</main>
+		
+		<main id="activities" class="container tabcontent">
+			<h1>Economic Activities</h1>
+				<p>There are various economic activities carried out in the area. In the area around Muguga, kiosks are in plenty. There is also an open air market availabe 
+				where you can go and buy your groceries at an affordable price. The kiosks round sell a variety of things, ranging from the house necessities to animal feeds.
+				The closest town to my area is Kikuyu town. Here, you will find supermarkets and also kiosks are present and in plenty.</p>
+				<p>Farming is one of the most practised economic activities in my area. It is also one of the main sources of income for most of the residents here. People grow various 
+				crops, but the main one is maize and beans. People also keep animals like chicken, cows, pigs and sheep. These are just but a few of the activities people do to earn an income in this area.</p>
+		</main>
+		
+		<main id="amenities" class="container tabcontent">
+			<h1>Public Amenities</h1>
+				<p>We all know an area is not complete without public amenities. These include schools, hospitals and government offices.</p>
+				<p>There are a number of schools in this area, starting from primary, to high schools, to colleges and universities. You can be assured that your child will go to school. 
+				There are both public and private schools. An example of a public school is <i>Muguga Primary School</i>. Private schools include <i>Utafiti Primary</i>, <i>Uthiru Genesis</i>, <i>Fairlawns</i> and also 
+				<i>Damacrest</i>. All these schools offer good education and they perform well when it comes to national exams. High schools include <i>Alliance High School</i>, which is one of the best 
+				schools in the country. <i>Aga Khan High School</i> is also one of the schools in this area.</p>
+				<p>We also have access to hospitals and clinics. Thanks to the accessibility and availability of road networks, one is able to access private and public hospitals of your choice. There are clinics in the area 
+				which have certified doctors and nurses.</p>
+				<p>One is also able to visit government offices to enquire about something. There is also prescence of a police post. This means that the area itself is secure from crimes like robbery.</p>
+		</main>
+	</body>
+</html>

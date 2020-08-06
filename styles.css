@@ -1,0 +1,56 @@
+.tabcontent{
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #c311fo;
+	border-top: none;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f1f1f1;
+	opacity: 0.9;
+}
+
+.header {
+	font-size: xx-large;
+	background-image: url("headerPic.jpg");
+	padding: 40px;
+	color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.nav .nav-item {
+	overflow: hidden;
+	color: white;
+	cursor: pointer;
+	padding: 13px 12.65px;
+	transition: 0.3s;
+	font-size: 20px;
+	background-color: inherit;
+}
+ .tabs {
+	background-color: #eb5649; 
+ }
+ 
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	padding: 30px 30px;
+	background-color: #716ed4;
+}
+
+
+.nav-item .nav-link:hover {
+	background-color:#ddd;
+}
+
+.nav-item .nav-link.active {
+	background-color: #d6f5d6;
+}
+
+body {
+	background-image: url("bodyPic.jpg");
+}
+
+i {
+	background-color: #eb5649;
+}
