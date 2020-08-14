@@ -16,11 +16,10 @@ function openTab (evt, title) {
 	
 	document.getElementById(title).style.display = "block";
 	evt.currentTarget.className += "active";
-	console.log(title + " tab opened");
+	//console.log(title + " tab opened");
 	
 	if (title == "locality") {
 		document.getElementsByClassName("header").innerHTML = "Home";
 	}
 }
-
 
